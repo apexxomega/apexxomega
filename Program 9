@@ -23,10 +23,10 @@
 var myApp=angular.module('myApp',[]);
 myApp.controller('employeeController',function($scope){
     $scope.employees=[
-        {name:'sahil',salary:50999},
-        {name:'rahil',salary:50679},
-        {name:'mahil',salary:23999},
-        {name:'ahil',salary:45999},
+        {name:'Arun',salary:50999},
+        {name:'Tarun',salary:50679},
+        {name:'Shazad',salary:23999},
+        {name:'Akhil',salary:45999},
     ];
     $scope.searchname='';
     $scope.searchsalary=0;
