@@ -24,8 +24,8 @@
     </body>
 </html>angular.module('myApp',[]).controller('appCtrl',function($scope){
     $scope.students=[
-    {name:"sahil",cgpa:3.8},
-    {name:"rahil",cgpa:5.8},
-    {name:"mahil",cgpa:4.8},
+    {name:"Arun",cgpa:3.8},
+    {name:"Tarun",cgpa:5.8},
+    {name:"Shazad",cgpa:4.8},
      ];
 });
