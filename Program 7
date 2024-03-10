@@ -37,7 +37,10 @@
 <button ng-click="updateUser()">Update</button>
 <script src="p7.js"></script>
 </body>
-</html>                                       angular.module('userApp', []) .controller('UserController', function($scope) {
+</html>                                      
+
+
+angular.module('userApp', []) .controller('UserController', function($scope) {
     $scope.users = [
     { name: 'abcd', email: 'abcd@gmail.com' },
     { name: 'trainee', email: 'trainee@yahoo.com' }
