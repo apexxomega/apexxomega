@@ -20,7 +20,7 @@
         <script src="p9e.js"></script>
     </body>
 </html>                                                                                                                                                                                                    var myApp=angular.module('myApp',[]);
-myApp.controller('employeeController',function($scope){
+var myApp.controller('employeeController',function($scope){
     $scope.employees=[
         {name:'sahil',salary:50999},
         {name:'rahil',salary:50679},
